@@ -66,6 +66,7 @@ export interface AppData {
   dailyCaloriesTarget: number;
   badges: string[];
   lastUpdated: string;
+  tipOfTheDay: string;
 }
 
 // For AI Generation Response

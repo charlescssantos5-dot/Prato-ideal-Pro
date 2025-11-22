@@ -11,6 +11,7 @@ const INITIAL_DATA: AppData = {
   dailyCaloriesTarget: 2000,
   badges: [],
   lastUpdated: new Date().toISOString(),
+  tipOfTheDay: '',
 };
 
 export const loadData = (): AppData => {
